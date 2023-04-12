@@ -1,0 +1,54 @@
+.App {
+    background-color: black;
+    font-family: Poppins;
+}
+.limit_width {
+    margin: 0px 120px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.header img {
+    width: 196px;
+}
+.header .locations a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #707070;
+    font-size: 17px;
+    transition: .5s;
+}
+.header .locations a:hover {
+    color: #3C82F4;
+}
+.header .register_but .login {
+    background: none;
+    color: #707070;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: #000000 1px solid;
+    transition: .5s;
+
+}
+.header .register_but .login:hover {
+    border: #3C82F4 1px solid;
+    color: #3C82F4;
+    box-shadow: 0px 0px 20px #3C82F4;
+}
+.header .register_but .signup {
+    border: none;
+    background-color: #3C82F4;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: .5s;
+
+}
+.header .register_but .signup:hover {
+    box-shadow: 0px 0px 20px #3C82F4;
+}
