@@ -1,54 +1,175 @@
 .App {
-    background-color: black;
-    font-family: Poppins;
+  background-color: black;
+  font-family: Poppins;
 }
 .limit_width {
-    margin: 0px 120px;
+  margin: 0px 120px;
 }
+/* Header start */
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 .header img {
-    width: 196px;
+  width: 196px;
 }
 .header .locations a {
-    text-decoration: none;
-    margin: 0px 20px;
-    color: #707070;
-    font-size: 17px;
-    transition: .5s;
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #707070;
+  font-size: 17px;
+  transition: 0.5s;
+  position: relative;
+}
+.header .locations a::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  background-color: #326CF9;
+  left: 0px;
+  bottom: -9px;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 0px -20px 10px #326CF9;
+
+}
+.header .locations a:hover::after {
+    width: 120%;
 }
 .header .locations a:hover {
-    color: #3C82F4;
+  color: #326CF9;
+  
 }
 .header .register_but .login {
-    background: none;
-    color: #707070;
-    border: none;
-    padding: 7px 15px;
-    border-radius: 10px;
-    border: #000000 1px solid;
-    transition: .5s;
-
+  width: 90px;
+  height: 40px;
+  background: none;
+  color: #707070;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: #000000 1px solid;
+  transition: 0.5s;
 }
 .header .register_but .login:hover {
-    border: #3C82F4 1px solid;
-    color: #3C82F4;
-    box-shadow: 0px 0px 20px #3C82F4;
+  /* border: #3c82f4 1px solid; */
+  color: #326CF9;
+  letter-spacing: 1px;
 }
 .header .register_but .signup {
-    border: none;
-    background-color: #3C82F4;
-    padding: 7px 15px;
-    border-radius: 10px;
-    margin-left: 10px;
-    transition: .5s;
-
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #3c82f4;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: 0.5s;
 }
 .header .register_but .signup:hover {
-    box-shadow: 0px 0px 20px #3C82F4;
+  letter-spacing: 1px;
 }
+/* Header end */
+
+/* Banner start */
+.banner {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 168px;
+  color: #ffffff;
+}
+.banner .gradien_trxt {
+  background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -58px;
+  margin-bottom: 30px;
+}
+.banner h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  margin: -5px 0px;
+}
+.banner .but_bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.banner .but_bloc button {
+  height: 76px;
+  width: 312px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.banner .but_bloc .one_but {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #0557db;
+  border: #0557db 1px solid;
+  transition: 0.5s;
+}
+.banner .but_bloc .one_but:hover {
+  background: none;
+  border: solid 1px #0557db;
+  letter-spacing: 1px;
+}
+.banner .but_bloc .tou_but {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background: none;
+  border: #0557db 1px solid;
+  transition: 0.5s;
+}
+.banner .but_bloc .tou_but:hover {
+  background: #0557db;
+  border: solid 1px #0557db;
+  letter-spacing: 1px;
+}
+.banner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 38px;
+  text-align: center;
+  color: #707070;
+  margin-top: 5px;
+}
+.banner p span {
+  font-weight: 700;
+  color: #ffffff;
+}
+.banner p span img {
+  width: 25px;
+}
+
+/* Banner end */
