@@ -1,7 +1,8 @@
 import React from "react";
-import Text from "../Images/Text_shape.png";
 import Dot from "../Images/Dot.png";
-
+import Smile from '../Images/Smile_emoji.png'
+import Heppy from '../Images/Happy_emoji.png'
+import Party from '../Images/Party_emoji.png'
 const Banner = () => {
   return (
     <div className="banner limit_width">
@@ -21,6 +22,23 @@ const Banner = () => {
         </span>&nbsp;
         creators have already started
       </p>
+      <div className="why_creators ">
+        <h1>Why Creators Love Marico</h1>
+        <div className="why_types">
+          <div className="why_type">
+            <h4><img src={Smile} /> Reduced Anxiety</h4>
+            <p>Never worry about losing your audience.</p>
+          </div>
+          <div className="why_type cent_type">
+            <h4><img src={Heppy} /> Lower Workload</h4>
+            <p>Just share one link. We'll handle the rest.</p>
+          </div>
+          <div className="why_type">
+            <h4><img src={Party} /> More Time</h4>
+            <p>Spend less time on marketing tools</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
