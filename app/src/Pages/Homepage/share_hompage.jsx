@@ -1,5 +1,5 @@
 import React from "react";
-import Mobile from '../Images/Mobile.png'
+import Mobile from '../../Images/Mobile.png'
 
 const ShareHompage = () => {
   return (
@@ -29,6 +29,7 @@ const ShareHompage = () => {
           <h1>All Yours.</h1>
         </div>
       </div>
+      <button className="get_start">Get Started </button>
     </div>
   );
 };

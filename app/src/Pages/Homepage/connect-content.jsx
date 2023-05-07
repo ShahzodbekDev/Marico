@@ -1,5 +1,5 @@
 import React from "react";
-import Screen from "../Images/Screen.png";
+import Screen from "../../Images/Screen.png";
 
 const ConnectContent = () => {
   return (

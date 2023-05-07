@@ -1,8 +1,8 @@
 import React from "react";
-import Dot from "../Images/Dot.png";
-import Smile from '../Images/Smile_emoji.png'
-import Heppy from '../Images/Happy_emoji.png'
-import Party from '../Images/Party_emoji.png'
+import Dot from "../../Images/Dot.png";
+import Smile from '../../Images/Smile_emoji.png'
+import Heppy from '../../Images/Happy_emoji.png'
+import Party from '../../Images/Party_emoji.png'
 const Banner = () => {
   return (
     <div className="banner limit_width">

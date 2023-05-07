@@ -1,15 +1,26 @@
 import React from "react";
+import { Routes, Route  } from "react-router-dom";
 import Header from "./Pages/header";
-import Banner from "./Pages/banner";
-import ConnectContent from "./Pages/connect-content";
-import ShareHompage from "./Pages/share_hompage";
+import Home_page from "./Pages/Homepage/home_page";
+import Footer from "./Pages/footer";
+import SignIn from "./Pages/SignIn/signin";
+
 
 function App() {
   return <div className="App ">
-   <Header/>
-   <Banner/>
-   <ConnectContent/>
-   <ShareHompage/>
+
+  
+    <Header/>
+    <Routes>
+      <Route path="/" element={<Home_page/>}/>
+      <Route path="signin" element={<SignIn/>}/>
+    </Routes>
+    <Footer/> 
+
+
+
+
+
    
   </div>;
 }
