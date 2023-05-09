@@ -1,5 +1,5 @@
 import React from "react";
-import Mobile from '../../Images/Mobile.png'
+import Mobile from "../../Images/Mobile.png";
 
 const ShareHompage = () => {
   return (
@@ -19,7 +19,7 @@ const ShareHompage = () => {
             <span>ALL You Create.</span>
           </h1>
           <h1>One Link</h1>
-          <img src={Mobile}/>
+          <img src={Mobile} />
         </div>
         <div className="subcribers">
           <p>Collect Subscribers</p>

@@ -67,7 +67,7 @@
   padding: 7px 15px;
   border-radius: 10px;
   margin-left: 10px;
-  font-size: 15px;
+  font-size: 14px;
   transition: 0.5s;
 }
 .header .register_but .signup:hover {
@@ -658,7 +658,8 @@
 }
 .wewe .wewe_bloc {
   width: 100%;
-  background-image: linear-gradient(to top,#07070756,#0000005e),url("./Images/Image-5.png");
+  background-image: linear-gradient(to top, #07070756, #0000005e),
+    url("./Images/Image-5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -686,27 +687,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .new_start .logo {
   width: 150px;
   margin-bottom: 15px;
 }
 .new_start h1 {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 70px;
-color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  color: #ffffff;
 }
 .new_start h3 {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 22px;
-color: #FFFFFF;
-margin-bottom: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 .new_start .new_btn {
   width: 250px;
@@ -721,9 +721,8 @@ margin-bottom: 20px;
   background: none;
   color: #0557db;
   letter-spacing: 1px;
-
 }
-.new_start  p {
+.new_start p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -742,6 +741,94 @@ margin-bottom: 20px;
 }
 /* NewStart end */
 
+/* SignUp start */
+.signheader {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signheader h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.signheader p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.signheader .forms form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.signheader .forms input {
+  width: 286px;
+  height: 48px;
+  margin: 15px 40px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: #707070 1px solid;
+}
+.signheader .forms .userneme {
+  background-image: url('./Images/User.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 18px;
+}
+.signheader .forms .email {
+  background-image: url('./Images/At_sign.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 18px;
+}
+.signheader .forms .password {
+  background-image: url('./Images/Shape-8.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 18px;
+}
+.signheader .forms input:hover {
+  color: #0557db;
+  border-bottom : #0557db 1px solid;
+}
+.signheader .forms input:hover::placeholder {
+  color: #0557db;
+}
+
+
+.signheader .forms .submit {
+width: 286px;
+height: 48px;
+margin: 0px 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+background-color: #0557db;
+border: none;
+
+}
+
+
+
+
+/* SignUp end */
 
 /* Footer start */
 .footer {

@@ -6,17 +6,18 @@ import SendEmails from "./send-emails";
 import ShareHompage from "./share_hompage";
 import Wewe from "./we`we";
 
-
 function Home_page() {
-    return <div className="home_page">
-        <Banner/>
-        <ConnectContent/>
-        <ShareHompage/>
-        <SendEmails/>
-        <ExpertsAgree/>
-        <Wewe/>
-        <Newstart/>
-    </div>;
+  return (
+    <div className="home_page">
+      <Banner />
+      <ConnectContent />
+      <ShareHompage />
+      <SendEmails />
+      <ExpertsAgree />
+      <Wewe />
+      <Newstart />
+    </div>
+  );
 }
 
-export default Home_page
+export default Home_page;
